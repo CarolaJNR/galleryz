@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Galeries of the Ocean</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="fonts/aileronfont.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="fonts/aileronfont.css" type="text/css"/>
 	<link rel="stylesheet" href="css/css.css">
 </head>
 <body>
@@ -23,11 +24,12 @@
 			<li id="s2">
 				<a href="s2-1.html">
 					Exposiciones
+				</a>
 					<ul class="w2">
 						<li><a href="s2-1.html#abajo">Actuales</a></li>
 						<li><a href="s2-1.html#viejas">Finalizadas</a></li>
 					</ul>
-				</a>
+				
 			</li>
 			<li>
 				<a href="s3.html">Obras de Arte</a></li>
@@ -43,48 +45,47 @@
 	</div>
 	<div id="mountain">
 		<div class="libreimg"><h1 class="libresize">Newsletter</h1></div>
-		<img class="imagengrande antes" src="img/fondo32.jpg">
-		<img class="imagengrande despues" src="img/fondo3.jpg">
-			<a href="#abajo" class="anclaabajo" id="abajo"><img src="img/flecha3.png"></a>
+		<img class="imagengrande antes" src="img/fondo32.jpg" alt="fondo">
+		<img class="imagengrande despues" src="img/fondo3.jpg" alt="fondo">
+		<div class="anclaabajo"><a href="#abajo" id="abajo"><img src="img/flecha3.png" alt="abajo"></a></div>
+	</div>
 		<div class="texto">
 			<h1 class="animate1">Descubre el arte de vivir</h1>
 			
 		</div>
-	</div>
+	
 	<main class="container b">
 		<article>
-			<h1>¿Qué es Newsletter?</h1>
+			<h2>¿Qué es Newsletter?</h2>
 			<p>Gallery Z en tu casa, en el colectivo, en todas partes. Entérate cuándo inauguran las nuevas exhibiciones y colecciones desde tu dispositivo móvil.  Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</article>
 
 		<section class="section">
-			<h2>Síguenos y entérate de todas las novedades</h2>
+			<h3>Síguenos y entérate de todas las novedades</h3>
 				<form id="formulario" action="mailto:mail@mail.com" method="POST">
 					<div class="camponombre">
 						<label> 
 							Nombre*
-							<input type="text" name="usuario" required>
+							<input type="text" name="usuario" placeholder="Ej: Ariel Perez" required>
 						</label>
 					</div>
-					<div class="campoemail" required>
+					<div class="campoemail">
 						<label>
 							Dirección de E-mail*
-							<input type="email" name="email" required=>
+							<input type="email" name="email" placeholder="Ej: e-mail@mail.com" required>
 						</label>
 					</div>
 					<div>
 						<label>
 							Por qué deseas inscribirte(opcional)
-						<textarea>
-							
-						</textarea>
+						<textarea placeholder="Escriba aquí..." maxlength="500"></textarea>
 						</label>
 					</div>
 					<div class="checkbox">
 						<label>
-							Aceto los términos y condiciones de Gallery Z. Para más información visitar <a href="img/terminos_y_condiciones.pdf">Términos y Condiciones.pdf</a>
+							Acepto los términos y condiciones de Gallery Z. Para más información visitar <a href="img/terminos_y_condiciones.pdf">Términos y Condiciones.pdf</a>
 						<input type="checkbox" name="insert" value="true" checked required>
 						</label>
 					</div>
@@ -96,12 +97,14 @@
 								<option>Brasil</option>
 								<option>Chile</option>
 								<option>Uruguay</option>
+								<option>Paraguay</option>
+								<option>Bolivia</option>
 								<option>Otro</option>
 							</select>
 						</label>
 					</div>
 					<div>
-						<input type="submit"value="Contáctanos">
+						<input type="submit" value="Contáctanos">
 					</div>
 				</form>
 		</section>
@@ -125,11 +128,11 @@
 						<a href="#">Sección5</a></li>
 				</ul>
 			
-				<h2>Todos los derechos reservados Gallery Z&copy;2019</h2>
+				<h3>Todos los derechos reservados Gallery Z&copy;2019</h3>
 			</div>
 		</footer>
 		<div id="scroll">
-			<a href="#" alt="arriba"><img src="img/flecha5.png"></a>
+			<a href="#"><img src="img/flecha5.png" alt="arriba"></a>
 		</div>
 
 
